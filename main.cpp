@@ -2,9 +2,13 @@
 #include "inc_me.h"
 
 int main() {
+#if 0
+#include "AlienDictionary.h"
+
 #include "CountAndSay.h"
     CountAndSay CS;
     string ret = CS.countAndSay(5);
+#endif
 
 #if 0
     InorderSuccessorOfBST is;
